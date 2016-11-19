@@ -26,6 +26,9 @@
 @implementation BlueTooth
 
 #pragma mark - 自定义方法
+
+
+
 static id _instance;
 + (instancetype)sharedInstance {
     static dispatch_once_t onceToken;
