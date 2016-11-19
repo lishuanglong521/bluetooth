@@ -39,6 +39,8 @@ static id _instance;
 }
 
 - (instancetype)init {
+    
+    
     self = [super init];
     if (self) {
         _manager = [[CBCentralManager alloc] initWithDelegate:self queue:dispatch_get_main_queue()];
