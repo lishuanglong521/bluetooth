@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface CustomAVAudioSession : NSObject
+
+
+
+
 /**
  *  单例
  *
